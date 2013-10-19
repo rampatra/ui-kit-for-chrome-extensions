@@ -6,7 +6,7 @@
         <meta name="description" content="A small CSS Kit for designing the options/settings page for Chrome Extensions. It resembles the exact look as the native settings page of Chrome Browser." />
         <meta name="keywords" content="chrome-extensions,css-kit-for-chrome-extensions,css-kit,chrome-developers" />
         <meta name="author" content="Ram Swaroop" />
-        <link rel="shortcut icon" href="images/favicon.ico"> 
+        <link rel="shortcut icon" href="img/favicon.ico"> 
         <!-- style for chrome extensions -->
         <link rel="stylesheet" href="css/chrome_shared.css"/>
         <style>
@@ -14,17 +14,33 @@
             body>.main-container{max-width:800px;margin:50px auto}
             header{max-width:700px;margin:0 auto 50px auto;font-size:48px}
             .fork-github{position:absolute;top:0;right:0;width:164px;height:164px}
+            .social-buttons{margin-top:-30px}
+            .fr{float:right}
         </style>
     </head>
     <body>
-        <a href=""><img src="img/fork-github.png" alt="fork" class="fork-github"/></a>
+        <a href="https://github.com/ramswaroop/css-kit-for-chrome-extensions" target="_blank"><img src="img/fork-github.png" alt="fork" class="fork-github"/></a>
+        <div id="fb-root"></div>
+                <script>(function(d, s, id) {
+                  var js, fjs = d.getElementsByTagName(s)[0];
+                  if (d.getElementById(id)) return;
+                  js = d.createElement(s); js.id = id;
+                  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=217347368312341";
+                  fjs.parentNode.insertBefore(js, fjs);
+                }(document, 'script', 'facebook-jssdk'));</script>
         <div class="main-container">
             <header>
                 CSS Kit for Chrome Extensions
             </header>
 
-            <h1>Main Heading</h1>            
+            <h1>Main Heading</h1>
+            <div class="social-buttons fr">
+                <iframe width="90" scrolling="0" height="20" frameborder="0" allowtransparency="true" src="http://ghbtns.com/github-btn.html?user=ramswaroop&repo=css-kit-for-chrome-extensions&type=watch&count=true"></iframe><iframe width="90" scrolling="0" height="20" frameborder="0" allowtransparency="true" src="http://ghbtns.com/github-btn.html?user=ramswaroop&repo=css-kit-for-chrome-extensions&type=fork&count=true"></iframe><fb:like send="false" layout="button_count" width="100" show_faces="false" ></fb:like>&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/share" class="twitter-share-button" data-via="ramswarooppatra" data-related="compzets" data-hashtags="chrome-extensions">Tweet</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+            </div>
             <hr/>
+            
+            <!-- Widgets for Chrome Extension starts -->
             <h3>Sub Heading</h3>
 
             <h3>TextBox</h3>
@@ -92,7 +108,9 @@
 
             <br/>
             <br/>
-            <a href="http://www.compzets.com">This is a link ....</a>        
+            <a href="http://www.compzets.com">This is a link ....</a>
+            <!-- Widgets for Chrome Extension ends -->
+            
             <p>
                 About: This is small CSS Kit for designing the options/settings page for Chrome Extensions. It resembles the exact look as the native settings page of Chrome Browser.
             </p>
@@ -102,6 +120,10 @@
             <p>
                 With &#9829; by Ram Swaroop
             </p>
+            <br/>
+            <br/>
+            <!-- Some Ads -->
+            <script id="mNCC" language="javascript">  medianet_width='728';  medianet_height= '90';  medianet_crid='343814587';  </script><script id="mNSC" src="http://contextual.media.net/nmedianet.js?cid=8CU92B6OV" language="javascript"></script>
         </div>
     </body>
 </html>
