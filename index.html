@@ -4,7 +4,7 @@
         <title>CSS Kit for Chrome Extensions</title>
         <meta charset="utf-8"/>
         <meta name="description" content="A small CSS Kit for designing the options/settings page for Chrome Extensions. It resembles the exact look as the native settings page of Chrome Browser." />
-        <meta name="keywords" content="chrome-extensions,css-kit-for-chrome-extensions,css-kit,chrome-developers" />
+        <meta name="keywords" content="chrome-extensions,css-kit-for-chrome-extensions,css-kit,theme-for-chrome-extensions,chrome-developers" />
         <meta name="author" content="Ram Swaroop" />
         <link rel="shortcut icon" href="img/favicon.ico"> 
         <!-- style for chrome extensions -->
@@ -17,6 +17,20 @@
             .social-buttons{margin-top:-30px}
             .fr{float:right}
         </style>
+        <script type="text/javascript">
+
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-31158320-1']);
+            _gaq.push(['_setDomainName', 'compzets.com']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+
+        </script>
     </head>
     <body>
         <a href="https://github.com/ramswaroop/css-kit-for-chrome-extensions" target="_blank"><img src="img/fork-github.png" alt="fork" class="fork-github"/></a>
@@ -123,7 +137,28 @@
             <br/>
             <br/>
             <!-- Some Ads -->
-            <script id="mNCC" language="javascript">  medianet_width='728';  medianet_height= '90';  medianet_crid='343814587';  </script><script id="mNSC" src="http://contextual.media.net/nmedianet.js?cid=8CU92B6OV" language="javascript"></script>
+            <script type="text/javascript">
+                if(document.body.offsetWidth < 800) {
+                    var ad_slot = "3949443223";
+                    var ad_width = 320;
+                    var ad_height = 50;
+                }
+                else {
+                    var ad_slot = "3210232421";
+                    var ad_width = 728;
+                    var ad_height = 90;
+                }
+            </script>
+            <script type="text/javascript"><!--
+            google_ad_client = "ca-pub-1702577941194110";
+            google_ad_slot = ad_slot;
+            google_ad_width = ad_width;
+            google_ad_height = ad_height;
+            //-->
+            </script>
+            <script type="text/javascript"
+            src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+            </script>
         </div>
     </body>
 </html>
