@@ -153,7 +153,6 @@ input[type='radio']:checked::before {
         button,
         input[type='button'],
         input[type='reset'],
-        input[type='reset'],
         input[type='submit']):not(.custom-appearance):not(.link-button)) {
   background-image: -webkit-linear-gradient(#f0f0f0, #f0f0f0 38%, #e0e0e0);
   border-color: rgba(0, 0, 0, 0.3);
