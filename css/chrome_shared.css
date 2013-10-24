@@ -108,13 +108,14 @@ html[dir='rtl'] .weakrtl input::-webkit-input-placeholder {
   direction: rtl;
 }
 
-/* Added by Compzets.com */
+/* Horizontal line */
 hr{
     border:0;
     height:0;
     border-top:1px solid rgba(0, 0, 0, 0.1);
     border-bottom:1px solid rgba(255, 255, 255, 0.1)
 }
+/* Different sizes */
 .small{
     font-size:11px
 }
