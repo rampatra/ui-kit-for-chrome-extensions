@@ -47,8 +47,7 @@ select {
 :-webkit-any(button,
              input[type='button'],
              input[type='reset'],
-             input[type='submit'],
-             input[type='reset']):not(.custom-appearance):not(.link-button) {
+             input[type='submit']):not(.custom-appearance):not(.link-button) {
   -webkit-padding-end: 10px;
   -webkit-padding-start: 10px;
 }
