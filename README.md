@@ -7,4 +7,4 @@ NOTE: This Kit is meant for Chrome Browsers only.
 
 Demo &rarr; http://code.compzets.com/css-kit-for-chrome-extensions/
 
-
+You can even compress the CSS Files with <a href="http://webapps.compzets.com/csscompressorandminifier">CSS Compressor & Minifier</a>

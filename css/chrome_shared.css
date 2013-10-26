@@ -26,6 +26,7 @@ body {
   margin: 0;
   font-family:'Segoe UI', Tahoma, sans-serif;
   font-size: 75%;
+  color:rgb(48, 57, 66)
 }
 
 p {
@@ -51,7 +52,6 @@ h2 {
 }
 
 h3 {
-  color: black;
   font-size: 1.2em;
   margin-bottom: 0.8em;
 }
