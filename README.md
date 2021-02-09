@@ -5,6 +5,9 @@ A small UI Kit for designing the options/settings page for Chrome Extensions. It
 
 NOTE: This Kit is meant for Chrome Browsers only.
 
-Demo &rarr; http://code.compzets.com/css-kit-for-chrome-extensions/
+Demo &rarr; 
+
+- https://plugins.compzets.com/simplefill/
+- http://code.compzets.com/css-kit-for-chrome-extensions/
 
 You can even compress the CSS Files with <a href="http://webapps.compzets.com/csscompressorandminifier">CSS Compressor & Minifier</a>
